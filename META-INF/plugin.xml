@@ -2,7 +2,7 @@
     <id>RestHelper</id>
     <name>RestHelper</name>
     <version>1.0</version>
-    <vendor email="bouda.petr@gmail.com">Petr Bouda</vendor>
+    <vendor email="bouda.petr@gmail.com">Petr Bouda, Vojtech Krasa</vendor>
     <idea-version since-build="131"/>
 
     <description><![CDATA[

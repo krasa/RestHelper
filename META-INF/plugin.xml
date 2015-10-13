@@ -1,0 +1,37 @@
+<idea-plugin version="2">
+    <id>RestHelper</id>
+    <name>RestHelper</name>
+    <version>1.0</version>
+    <vendor email="bouda.petr@gmail.com">Petr Bouda</vendor>
+    <idea-version since-build="131"/>
+
+    <description><![CDATA[
+      Plugin for fast and convenient testing REST APIs, contains server side (Grizzly Framework) and Client which contains
+      an abstraction of an http calls.
+
+      In this time, the plugin supports only Jersey Framework, but I am willing to spread out the functionality according to
+      your needs :).
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Initial Release
+    ]]>
+    </change-notes>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.lineMarkerProvider language="JAVA" implementationClass="cz.bouda.idea.resthelper.ApplicationPathLineMarkerProvider"/>
+    </extensions>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
